@@ -1,4 +1,4 @@
 # fwd920
 FEWD 9/20 2021 Class Work
 
-Tor's File
+This is a repository of exercises and homework

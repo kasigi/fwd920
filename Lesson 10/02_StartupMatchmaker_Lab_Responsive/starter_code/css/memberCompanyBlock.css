@@ -6,7 +6,8 @@
     max-width: 100%;
     overflow: hidden;
     margin-top: 20px;
-    overflow: hidden;
+    display:flex;
+    flex-wrap: wrap;
 }
 
 .memberCompany:after {
@@ -16,6 +17,7 @@
 }
 
 .memberCompany > h1 {
+    flex-basis:100%;
     width: 100%;
     display:block;
     font-size: 22px;
@@ -25,7 +27,7 @@
 }
 
 .memberCompanyLogoHaus {
-    float:left;
+    flex-basis:25%;
     width: 25%;
     overflow: hidden;
 
@@ -38,13 +40,13 @@
 
 
 .memberCompanySkills {
-    float:left;
+    flex-basis:35%;
     width: 35%;
     overflow: hidden;
 }
 
 .memberCompanyLocation {
-    float:left;
+    flex-basis:35%;
     width: 35%;
     overflow: hidden;
 }

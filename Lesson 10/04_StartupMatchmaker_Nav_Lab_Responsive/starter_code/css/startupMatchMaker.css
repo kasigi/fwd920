@@ -25,7 +25,7 @@ a {
 
 /* HEADER */
 
-.site-header {
+.site_header {
     background-color: black;
     border-bottom-style: solid;
     border-bottom-color: yellow;
@@ -33,7 +33,7 @@ a {
     padding: 20px;
 }
 
-.site-header .contentContainer {
+.site_header .contentContainer {
     display: flex;
     justify-content:space-between;
     overflow:hidden;

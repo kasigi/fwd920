@@ -3,6 +3,7 @@
  *
  * Colors-
  * Green: #14a96d
+ * Dark Green: #14a96d
  * White: #fff
  * Light gray: #f4f5f6
  * Border gray: #cfd7de
@@ -63,7 +64,7 @@ a:hover {
 
 
 
-.site-header-inner {
+.site_header_inner {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -71,7 +72,7 @@ a:hover {
   margin-top: 10px;
 }
 
-header img {
+.site_header img {
   width: 180px;
 }
 
@@ -91,7 +92,7 @@ header img {
   justify-content: space-around;
   padding:0;
 }
-.navigation .sign-up {
+.navigation .sign_up {
   display: flex;
   justify-content: space-around;
   padding:0;
@@ -102,7 +103,7 @@ header img {
   margin: 0 0 0 30px;
 }
 
-/* .sign-up {
+/* .sign_up {
   margin-left: 250px;
 } */
 
@@ -143,7 +144,7 @@ header img {
   }
 
   .navigation .navigation_first,
-  .navigation .sign-up {
+  .navigation .sign_up {
     flex-direction: column;
     margin:4rem 0 0 0;
     gap:4rem;
@@ -157,24 +158,24 @@ header img {
   .navlink a:visited {
     color: white;
   }
-  .nav-active {
+  .nav_active {
       width: 50%;
       height: calc(100% - 70px);
   }
 }
 
 /* Hero */
-.rover-hero-container {
+.rover_hero_container {
   background: url("../img/hero.jpg") no-repeat;
   background-size: cover;
   padding: 120px 0;
   color: #66727c;
 }
-.rover-mobile-hero-container {
+.rover_mobile_hero_container {
   display:none;
 }
 
-.hero-callout {
+.hero_callout {
   max-width: 500px;
 }
 
@@ -188,33 +189,33 @@ header img {
 }
 
 @media screen and (min-width:761px) {
-  .btn-hero {
+  .btn_hero {
     width: 200px;
   }
 }
 
 
 @media screen and (min-width:761px) and (max-width: 1220px) {
-  .hero-callout {
+  .hero_callout {
     padding-left: 20px;
   }
   
 }
 
 @media screen and (min-width:761px) and  (max-width: 960px) {
-  .hero-callout {
+  .hero_callout {
     background: white;
     padding: 20px;
   }
 }
 
 @media screen and (max-width: 760px) {
-  .rover-hero-container {
+  .rover_hero_container {
     padding:0;
     background:none;
   }
 
-  .hero-callout {
+  .hero_callout {
     width:auto;
     max-width:100%;
     padding: 20px;
@@ -229,7 +230,7 @@ header img {
     font-weight:bold;  
   }
 
-  .rover-mobile-hero-container {
+  .rover_mobile_hero_container {
     display:grid;
     gap:1rem;
     overflow:hidden;
@@ -240,7 +241,7 @@ header img {
     width:100%;
   }
 
-  .rover-mobile-hero-container img {
+  .rover_mobile_hero_container img {
     width: 100%;
   }
 
@@ -252,7 +253,7 @@ header img {
 
 
 /* Rover Facts */
-.rover-middle-section {
+.rover_middle_section {
   margin-bottom: 80px;
 }
 
@@ -261,104 +262,104 @@ header img {
   font-weight:bolder;
 }
 
-.rover-facts-2col {
+.rover_facts_2col {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 1rem;
 }
 
 @media screen and (max-width: 1200px) {
-  .rover-facts-2col {
+  .rover_facts_2col {
     padding-left: 1rem;
     padding-right:1rem;
   }
 }
 
-.rover-facts-container ul {
+.rover_facts_container ul {
   list-style: none;
 }
 
-.rover-facts-container li {
+.rover_facts_container li {
   display: grid;
   grid-template-columns: 1fr 5fr;
   margin-bottom: 20px;
 }
 
-.rover-facts-container h2 {
+.rover_facts_container h2 {
   margin-bottom: 0;
 }
 
-.rover-facts-container h2 + p {
+.rover_facts_container h2 + p {
   margin-top: 0.5rem;
 }
 
-.rover-cta-box {
+.rover_cta_box {
   border: 1px solid #cfd7de;
   border-radius: 5px;
 }
 
-.rover-cta-header {
+.rover_cta_header {
   background: #f4f5f6;
   display: flex;
   padding: 20px;
 }
 
-.rover-cta-header img {
+.rover_cta_header img {
   width: 50px;
 }
 
-.rover-cta-header p {
+.rover_cta_header p {
   margin-left: 20px;
 }
 
-.rover-cta-box-content {
+.rover_cta_box_content {
   padding: 0 30px;
 }
 
-.rover-facts {
+.rover_facts {
   list-style: none;
   padding: 30px;
 }
 
-.rover-facts li {
+.rover_facts li {
   margin-bottom: 20px;
 }
 
-.rover-facts i {
+.rover_facts i {
   color: #14a96d;
 }
 
-.rover-protections {
+.rover_protections {
   text-align: center;
 }
 
 @media screen and (max-width: 760px) {
-  .rover-facts-container h2 {
+  .rover_facts_container h2 {
     font-size: 1.5rem;
     font-weight: 900;
   }
-  .rover-facts-container p {
+  .rover_facts_container p {
     font-size: 1rem;
   }
-  .facts-img img {
+  .facts_img img {
     max-width: 4rem;
   }
 }
 
 /* Rover Quote */
-.rover-action-shot {
+.rover_action_shot {
   background: url("../img/lady-with-her-dogs.jpg") no-repeat;
   background-size: cover;
   padding: 120px 0;
   color: #66727c;
 }
 
-.rover-action-shot > img {
+.rover_action_shot > img {
   display:none;
   max-width: 100%;
 }
 
-.rover-action-quote-container {
+.rover_action_quote_container {
   background: white;
   max-width: 500px;
   border: 1px solid grey;
@@ -371,28 +372,28 @@ header img {
   margin-top: -170px;
 }
 
-.rover-action-dash {
+.rover_action_dash {
   background-color: #14a96d;
   width:4rem;
   height: 0.25rem;
   margin-top:1rem;
 }
 
-.rover-quote {
+.rover_quote {
   font-weight:bold;
 }
 
-.rover-quote span {
+.rover_quote span {
   color: #66727c;
 }
 
 @media screen and (max-width: 760px) {
-  .rover-action-shot {
+  .rover_action_shot {
     background: none;
     padding: 0;
   }
 
-  .rover-action-quote-container {
+  .rover_action_quote_container {
     margin: 0;
     border: none;
     border-top: 1px solid grey;
@@ -402,17 +403,17 @@ header img {
     
   }
 
-  .rover-action-shot > img {
+  .rover_action_shot > img {
     display:block;
   }
 }
 
-.rover-action-quote-tagline {
+.rover_action_quote_tagline {
   font-size: 1.2rem;
 }
 
-.rover-action-quote-container a,
-.rover-action-quote-container a:visited {
+.rover_action_quote_container a,
+.rover_action_quote_container a:visited {
   color:#06748a;
   text-decoration:none;
 }
@@ -423,7 +424,7 @@ header img {
   font-size: 1.5rem;
 }
 
-.rover-123-item-container {
+.rover_123_item_container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   grid-gap: 1rem;
@@ -431,12 +432,12 @@ header img {
 }
 
 @media screen and (max-width: 1200px) {
-  .rover-123-item-container {
+  .rover_123_item_container {
     padding-left: 1rem;
     padding-right:1rem;
   }
 }
 
-.rover-123-item img {
+.rover_123_item img {
   height: 100px;
 }

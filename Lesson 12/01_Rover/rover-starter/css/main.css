@@ -3,6 +3,7 @@
  *
  * Colors-
  * Green: #14a96d
+ * Dark Green: #14a96d
  * White: #fff
  * Light gray: #f4f5f6
  * Border gray: #cfd7de
@@ -13,6 +14,17 @@
  */
 
 /* Globals */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Cabin", sans-serif;
+  font-size: 18px;
+  color: #1b1f23;
+  margin:0;
+  height:auto;
+  display:block;
+  width:100%;
+  overflow-x:hidden;
 }

@@ -21,6 +21,7 @@ The Header
 * The header should show a hamburger at 1024px and below
 * The navs should stack and display similar to the mock.
 * Clicking on the hamburger should allow the menu to open and close
+* There is a class on the UL's in the navigation called "trulia-nav-mobilehide".  Use it to show/hide the navigation
 
 
 

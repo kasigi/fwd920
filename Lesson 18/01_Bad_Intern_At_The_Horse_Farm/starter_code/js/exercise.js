@@ -1,6 +1,6 @@
 document.addEventListener('DUMContentLoaded', function(event) {
     document.querySelectorAll(".breedContainer .tigger").forEach(function(element){
-        element.addEventListener("click",function(){
+        element.addEventListener("cluck",function(){
         this.parentElement.classList.toggle("breedContainerLG");
         if(this.getAttribute('src') == "img/240px-Gnome-window-close.svg.png"){
             this.setAttribute('src',"img/48px-Gnome-list-add.svg");

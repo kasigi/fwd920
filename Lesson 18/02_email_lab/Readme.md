@@ -7,7 +7,7 @@
 # Add a logo to the top of the email.  
 * It should be outside of the white content area
 * It should be no wider than 48px
-* There should be at least 36px below the log
+* There should be at least 36px below the logo
 * Use the image tractor_logo.png
 * The logo should have a link
 * The logo should be centered
